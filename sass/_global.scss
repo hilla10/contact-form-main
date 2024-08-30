@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Karla",
+        sans-serif;
+    font-size: rem(16);
+    line-height: 1.4;
+    background: $Green-200;
+    color: $White;
+}
+
+h1 {
+    color: $Grey-900;
+    font-size: rem(28);
+    padding-bottom: rem(28);
+}
+
+.form-control {
+    display: block;
+    padding-bottom: rem(2);
+    color: $Grey-500;
+    font-size: rem(16);
+    font-family: inherit;
+    font-weight: 400;
+}
